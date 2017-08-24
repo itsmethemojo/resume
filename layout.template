@@ -46,7 +46,6 @@ Website: {{&website}}
 
 {{#skills}}
 ### {{name}} ({{#keywords}}{{.}}{{/keywords}})
-##### Level: {{level}}
 
 {{#skillsHR}}
 ---
