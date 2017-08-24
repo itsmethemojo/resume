@@ -1,0 +1,66 @@
+{{#basics}}
+
+# {{name}}
+
+## Contact
+
+Email: [{{email}}](mailto:{{email}})
+Website: {{&website}}
+
+{{#profiles}}
+{{network}} - [{{&url}}]({{&url}})
+{{/profiles}}
+
+## Summary
+
+{{summary}}
+{{/basics}}
+
+## Work
+
+{{#work}}
+### {{position}}, {{company}}
+##### {{startDate}} - {{endDate}}
+{{summary}}
+{{#highlights}}
+* {{.}}
+{{/highlights}}
+
+{{#workHR}}
+---
+{{/workHR}}
+{{/work}}
+
+## Education
+
+{{#education}}
+### {{institution}} - {{studyType}}, {{area}}
+##### {{startDate}} - {{endDate}}
+
+{{#educationHR}}
+---
+{{/educationHR}}
+{{/education}}
+
+## Skills
+
+{{#skills}}
+### {{name}} ({{#keywords}}{{.}}{{/keywords}})
+##### Level: {{level}}
+
+{{#skillsHR}}
+---
+{{/skillsHR}}
+{{/skills}}
+
+## Languages
+
+{{#languages}}
+### {{language}}
+##### Fluency: {{fluency}}
+
+{{#languagesHR}}
+---
+{{/languagesHR}}
+
+{{/languages}}

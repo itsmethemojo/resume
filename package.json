@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "postinstall": "cp layout.template node_modules/resume-to-markdown/",
+    "exportHtml": "touch resume.html && rm resume.html && node_modules/resume-cli/index.js export --format html --theme slick resume.html",
+    "exportMarkdown": "touch resume.md && rm resume.md && ./createMarkdown.js",
+    "export": "npm run exportHtml && npm run exportMarkdown"
+  },
+  "dependencies": {
+    "jsonresume-theme-slick": "^0.1.16",
+    "resume-cli": "~0.4.19",
+    "resume-to-markdown": "git+https://github.com/jsonresume/resumeToMarkdown.git"
+  }
+}

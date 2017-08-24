@@ -1,0 +1,173 @@
+{
+  "basics": {
+    "name": "Marian Pöschmann",
+    "label": "DevOps / Web Developer",
+    "picture": "",
+    "email": "marianpoeschmann@gmail.com",
+    "website": "https://github.com/itsmethemojo",
+    "summary": "I like to build web applications. And I mean every single aspect of it. From creating cool browser offline functionality with Javascript, over designing reliable release pipelines, to configure scaleable server clusters for high performance.",
+    "location": {
+      "city": "Berlin",
+      "countryCode": "DE"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "itsmethemojo",
+        "url": "https://github.com/itsmethemojo"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Air Berlin",
+      "position": "DevOps",
+      "website": "https://www.airberlin.com",
+      "startDate": "2015-09-01",
+      "summary": "after a brief start as php web developer i started to fill the open DevOps role as the team scaled up and the projects needed a different kind of skills",
+      "highlights": [
+        "migrated the test infrastructure from inhouse to aws",
+        "improved build and deployment prozesses with multibranch pipelines and jenkins docker slaves",
+        "improved and supported the development environment with vagrant and docker",
+        "integration of new slim applications on www.airberlin.com with NGINX Reverse Proxy and SSI",
+        "conception of a release process and providing the tools needed for a dev team of 10 - 15 developers",
+        "introducing and living the 'pipeline as code' concept in the web development team",
+        "developing a progressive web application that has been featured on the Google I/O 2016 https://flights.airberlin.com/de-DE/progressive-web-app"
+      ]
+    },
+    {
+      "company": "MeteoGroup",
+      "position": "Lead Developer Consumer/Web",
+      "website": "https://www.meteogroup.com/de",
+      "startDate": "2014-03-01",
+      "endDate": "2015-09-01",
+      "summary": "i was hired as a php web developer to rebuild the www.wetter24.de site and its different clients e.g. www.weer.nl",
+      "highlights": [
+        "complete rebuild a multi-client weather website and moved infrastructure from inhouse to automatic scaled aws servers",
+        "conception of a caching layer model to ensure page speed",
+        "improved several REST Web Services used by MeteoGroup Apps as WeatherPro, AlertsPro"
+      ]
+    },
+    {
+      "company": "dmc030",
+      "position": "Software Engineer Java",
+      "website": "https://diconium.com/digital-solutions/de/",
+      "startDate": "2012-08-01",
+      "endDate": "2014-03-01",
+      "summary": "Intershop and Adobe CQ5 Customizing",
+      "highlights": [
+        "design and implementation of web shop components for big german clients (PitStop, Intersport)",
+        "expierence with different frameworks (12 months Intershop, 6 months Adobe CQ5)"
+      ]
+    },
+    {
+      "company": "BWI Systeme GmbH",
+      "position": "Software Engineer Java",
+      "website": "https://www.bwi.de/unternehmen/wer-sind-wir/",
+      "startDate": "2010-10-01",
+      "endDate": "2012-08-01",
+      "summary": "IBM Maximo Development",
+      "highlights": [
+        "design and implementation of new features for the there used Maximo Asset Management System",
+        "getting a deeper unterstanding of the Service Management Process"
+      ]
+    },
+    {
+      "company": "IBM Deutschland GmbH",
+      "position": "Software Engineer Java",
+      "website": "https://www.ibm.com/de-de/",
+      "startDate": "2007-10-01",
+      "endDate": "2010-10-01",
+      "summary": "as part of the dual university education i had several internships in the IBM development departments around Stuttgart",
+      "highlights": [
+        "setting up a customized learning and communication plattform for the Afghan German Management College",
+        "integrating php applications in IBM WebSphere Portal (J2EE) via the Remote Portlet API"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Duale Hochschule Baden-Württemberg",
+      "area": "Applied Computer Science (Angewandte Informatik)",
+      "studyType": "Bachelor of Science",
+      "startDate": "2007-10-01",
+      "endDate": "2010-10-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Cloud Infrastructure",
+      "level": "",
+      "keywords": [
+        "AWS",
+        "EC2",
+        "ELB",
+        "Autoscaling",
+        "S3",
+        "Cloudfront"
+      ]
+    },
+    {
+      "name": "Virtualization",
+      "level": "",
+      "keywords": [
+        "vagrant",
+        "docker",
+        "docker-compose"
+      ]
+    },
+    {
+      "name": "Web Server",
+      "level": "",
+      "keywords": [
+        "NGINX",
+        "Reverseproxy",
+        "SSI",
+        "php-fpm",
+        "Apache",
+        "Varnish"
+      ]
+    },
+    {
+      "name": "Build and Deployment",
+      "level": "",
+      "keywords": [
+        "Jenkins",
+        "Pipeline as Code",
+        "Bamboo",
+        "Capistrano",
+        "composer",
+        "npm",
+        "grunt"
+      ]
+    },
+    {
+      "name": "Developer",
+      "level": "",
+      "keywords": [
+        "PHP",
+        "REST",
+        "Javascript",
+        "HTML/CSS",
+        "Java",
+        "MySQL / Oracle SQL",
+        "Ruby"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "German",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "fluently"
+    }
+  ],
+  "publications": [],
+  "interests": [],
+  "references": [],
+  "volunteer": [],
+  "awards": []
+}
