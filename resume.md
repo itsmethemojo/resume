@@ -24,12 +24,13 @@ after a brief start as php web developer i started to fill the open DevOps role 
 * conception of a release process and providing the tools needed for a dev team of 10 - 15 engineers
 * introducing and living the &#39;pipeline as code&#39; concept in the web development team
 * developing a progressive web application that has been featured on the Google I&#x2F;O 2016 https:&#x2F;&#x2F;flights.airberlin.com&#x2F;de-DE&#x2F;progressive-web-app
+* actually travel to the Google I&#x2F;O to present it live https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v&#x3D;0SSI8liELJU&amp;t&#x3D;26m44s
 
 ---
 ### Lead Developer Consumer&#x2F;Web, MeteoGroup
 ##### 2014-03-01 - 2015-09-01
 i was hired as a php web developer to rebuild the www.wetter24.de site and its different clients e.g. www.weer.nl
-* complete rebuild a multi-client weather website and moved infrastructure from inhouse to automatic scaled aws servers
+* completly rebuild a multi-client weather website and moved infrastructure from inhouse to automaticly scaled aws servers
 * conception of a caching layer model to ensure page speed
 * improved several REST Web Services used by MeteoGroup Apps as WeatherPro, AlertsPro
 

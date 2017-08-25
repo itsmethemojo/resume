@@ -32,7 +32,8 @@
         "integration of new slim applications on www.airberlin.com with NGINX Reverse Proxy and SSI",
         "conception of a release process and providing the tools needed for a dev team of 10 - 15 engineers",
         "introducing and living the 'pipeline as code' concept in the web development team",
-        "developing a progressive web application that has been featured on the Google I/O 2016 https://flights.airberlin.com/de-DE/progressive-web-app"
+        "developing a progressive web application that has been featured on the Google I/O 2016 https://flights.airberlin.com/de-DE/progressive-web-app",
+        "actually travel to the Google I/O to present it live https://www.youtube.com/watch?v=0SSI8liELJU&t=26m44s"
       ]
     },
     {
@@ -43,7 +44,7 @@
       "endDate": "2015-09-01",
       "summary": "i was hired as a php web developer to rebuild the www.wetter24.de site and its different clients e.g. www.weer.nl",
       "highlights": [
-        "complete rebuild a multi-client weather website and moved infrastructure from inhouse to automatic scaled aws servers",
+        "completly rebuild a multi-client weather website and moved infrastructure from inhouse to automaticly scaled aws servers",
         "conception of a caching layer model to ensure page speed",
         "improved several REST Web Services used by MeteoGroup Apps as WeatherPro, AlertsPro"
       ]
