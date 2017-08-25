@@ -10,7 +10,7 @@ Github - [https://github.com/itsmethemojo](https://github.com/itsmethemojo)
 
 ## Summary
 
-I like to build web applications. And I mean every single aspect of it. From creating cool browser offline functionality with Javascript, over designing reliable release pipelines, to configure scaleable server clusters for high performance.
+I love to build web applications. And I mean every single aspect of it. From creating cool browser offline functionality with Javascript, over designing reliable release pipelines, to configure scaleable server clusters for high performance.
 
 ## Work
 
@@ -18,10 +18,10 @@ I like to build web applications. And I mean every single aspect of it. From cre
 ##### 2015-09-01 - 
 after a brief start as php web developer i started to fill the open DevOps role as the team scaled up and the projects needed a different kind of skills
 * migrated the test infrastructure from inhouse to aws
-* improved build and deployment prozesses with multibranch pipelines and jenkins docker slaves
+* improved build and deployment processes with multibranch pipelines and jenkins docker slaves
 * improved and supported the development environment with vagrant and docker
 * integration of new slim applications on www.airberlin.com with NGINX Reverse Proxy and SSI
-* conception of a release process and providing the tools needed for a dev team of 10 - 15 developers
+* conception of a release process and providing the tools needed for a dev team of 10 - 15 engineers
 * introducing and living the &#39;pipeline as code&#39; concept in the web development team
 * developing a progressive web application that has been featured on the Google I&#x2F;O 2016 https:&#x2F;&#x2F;flights.airberlin.com&#x2F;de-DE&#x2F;progressive-web-app
 

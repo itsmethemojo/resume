@@ -5,7 +5,7 @@
     "picture": "",
     "email": "marianpoeschmann@gmail.com",
     "website": "https://github.com/itsmethemojo",
-    "summary": "I like to build web applications. And I mean every single aspect of it. From creating cool browser offline functionality with Javascript, over designing reliable release pipelines, to configure scaleable server clusters for high performance.",
+    "summary": "I love to build web applications. And I mean every single aspect of it. From creating cool browser offline functionality with Javascript, over designing reliable release pipelines, to configure scaleable server clusters for high performance.",
     "location": {
       "city": "Berlin",
       "countryCode": "DE"
@@ -27,10 +27,10 @@
       "summary": "after a brief start as php web developer i started to fill the open DevOps role as the team scaled up and the projects needed a different kind of skills",
       "highlights": [
         "migrated the test infrastructure from inhouse to aws",
-        "improved build and deployment prozesses with multibranch pipelines and jenkins docker slaves",
+        "improved build and deployment processes with multibranch pipelines and jenkins docker slaves",
         "improved and supported the development environment with vagrant and docker",
         "integration of new slim applications on www.airberlin.com with NGINX Reverse Proxy and SSI",
-        "conception of a release process and providing the tools needed for a dev team of 10 - 15 developers",
+        "conception of a release process and providing the tools needed for a dev team of 10 - 15 engineers",
         "introducing and living the 'pipeline as code' concept in the web development team",
         "developing a progressive web application that has been featured on the Google I/O 2016 https://flights.airberlin.com/de-DE/progressive-web-app"
       ]
