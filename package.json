@@ -2,7 +2,7 @@
   "scripts": {
     "postinstall": "cp layout.template node_modules/resume-to-markdown/",
     "exportHtml": "touch resume.html && rm resume.html && node_modules/resume-cli/index.js export --format html --theme slick resume.html",
-    "exportMarkdown": "touch resume.md && rm resume.md && ./createMarkdown.js",
+    "exportMarkdown": "npm run postinstall && touch resume.md && rm resume.md && ./createMarkdown.js",
     "export": "npm run exportHtml && npm run exportMarkdown"
   },
   "dependencies": {
