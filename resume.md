@@ -15,8 +15,22 @@ I love to build web applications. And I mean every single aspect of it. From cre
 
 ## Work
 
+### DevOps, A.T.U Auto-Teile-Unger
+##### 2017-12-01 - 
+as part of a 4 member DevOps team i build tools to enable our developers to deploy and test their applications on our kubernetes clusters, later i was a dedicated DevOps in a crossfunctional scrum team
+* integrated helm chart deployments in the build pipeline
+* created a git repository based deployment strategy to enable developers to deploy to all environments on their own
+* extended the selenium helm chart to run selenium behind an ingress in our cluster
+* setup automated integration tests as part of the build pipeline
+* improved speed of automated tests by setting up a scaleable parallelisation framework
+* created several concourse CI pipelines
+* created a concourse CI resource to complete bitbucket integration via build notifications
+* helped to create a reusable set of build-pack scripts to create new projects
+* set up nginx rules to A&#x2F;B test our new applications against the existing
+
+---
 ### DevOps, Air Berlin
-##### 2015-09-01 - 
+##### 2015-09-01 - 2017-11-01
 after a brief start as php web developer i started to fill the open DevOps role as the team scaled up and the projects needed a different kind of skills
 * migrated the test infrastructure from inhouse to aws
 * improved build and deployment processes with multibranch pipelines and jenkins docker slaves
@@ -65,19 +79,22 @@ as part of the dual university education i had several internships in the IBM de
 
 ## Skills
 
-### Cloud Infrastructure (AWS, EC2, ELB, Autoscaling, S3, Cloudfront)
+### Cloud Infrastructure (AWS, EC2, ELB, Autoscaling, S3, Cloudfront, kubernetes)
 
 ---
-### Virtualization (vagrant, docker, docker-compose)
+### Virtualization (kubernetes, docker, docker-compose, vagrant)
 
 ---
 ### Web Server (NGINX, Reverseproxy, SSI, php-fpm, Apache, Varnish)
 
 ---
-### Build and Deployment (Jenkins, Pipeline as Code, Bamboo, Capistrano, composer, npm, grunt)
+### Build and Deployment (Concourse CI, Jenkins, Pipeline as Code, Bamboo, Capistrano, composer, npm, grunt)
 
 ---
-### Developer (PHP, REST, Javascript, HTML&#x2F;CSS, Java, MySQL &#x2F; Oracle SQL, Ruby)
+### Developer (PHP, Ruby, Python, Bash, REST, Javascript, HTML&#x2F;CSS, Java, MySQL &#x2F; Oracle SQL)
+
+---
+### Configuration Management (ansible)
 
 
 ## Languages

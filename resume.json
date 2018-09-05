@@ -25,10 +25,29 @@
   },
   "work": [
     {
+      "company": "A.T.U Auto-Teile-Unger",
+      "position": "DevOps",
+      "website": "https://www.atu.de/home",
+      "startDate": "2017-12-01",
+      "summary": "as part of a 4 member DevOps team i build tools to enable our developers to deploy and test their applications on our kubernetes clusters, later i was a dedicated DevOps in a crossfunctional scrum team",
+      "highlights": [
+        "integrated helm chart deployments in the build pipeline",
+        "created a git repository based deployment strategy to enable developers to deploy to all environments on their own",
+        "extended the selenium helm chart to run selenium behind an ingress in our cluster",
+        "setup automated integration tests as part of the build pipeline",
+        "improved speed of automated tests by setting up a scaleable parallelisation framework",
+        "created several concourse CI pipelines",
+        "created a concourse CI resource to complete bitbucket integration via build notifications",
+        "helped to create a reusable set of build-pack scripts to create new projects",
+        "set up nginx rules to A/B test our new applications against the existing"
+      ]
+    },
+    {
       "company": "Air Berlin",
       "position": "DevOps",
       "website": "https://www.airberlin.com",
       "startDate": "2015-09-01",
+      "endDate": "2017-11-01",
       "summary": "after a brief start as php web developer i started to fill the open DevOps role as the team scaled up and the projects needed a different kind of skills",
       "highlights": [
         "migrated the test infrastructure from inhouse to aws",
@@ -110,16 +129,18 @@
         "ELB",
         "Autoscaling",
         "S3",
-        "Cloudfront"
+        "Cloudfront",
+        "kubernetes"
       ]
     },
     {
       "name": "Virtualization",
       "level": "",
       "keywords": [
-        "vagrant",
+        "kubernetes",
         "docker",
-        "docker-compose"
+        "docker-compose",
+        "vagrant"
       ]
     },
     {
@@ -138,6 +159,7 @@
       "name": "Build and Deployment",
       "level": "",
       "keywords": [
+        "Concourse CI",
         "Jenkins",
         "Pipeline as Code",
         "Bamboo",
@@ -152,14 +174,24 @@
       "level": "",
       "keywords": [
         "PHP",
+        "Ruby",
+        "Python",
+        "Bash",
         "REST",
         "Javascript",
         "HTML/CSS",
         "Java",
-        "MySQL / Oracle SQL",
-        "Ruby"
+        "MySQL / Oracle SQL"
+      ]
+    },
+    {
+      "name": "Configuration Management",
+      "level": "",
+      "keywords": [
+        "ansible"
       ]
     }
+
   ],
   "languages": [
     {
