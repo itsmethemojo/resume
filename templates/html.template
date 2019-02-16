@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
 
-	<title>Marian Pöschmann (Resume)</title>
+	<title>{{#basics}}{{name}}{{/basics}} (Resume)</title>
 
 	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 	<link href='//fonts.googleapis.com/css?family=Roboto:500,300' rel='stylesheet' type='text/css'>
@@ -358,36 +358,34 @@ icon.large {
 	<body>
 
 	<div class="container" id="resume">
+      {{#basics}}
 			<div id="card" class="row">
 				<div class="col-xs-3 col-sm-4">
 				</div>
 				<div class="col-xs-9 col-sm-8">
-					<h1>Marian Pöschmann</h1>
-					<h2>DevOps &#x2F; Web Developer</h2>
+					<h1>{{name}}</h1>
+					<h2>{{label}}</h2>
 					<section id="basics">
 						<div class="contact">
 							<div class="website">
 								<icon class="entypo-Compass"></icon>
-								<a href="https://github.com/itsmethemojo">https://github.com/itsmethemojo</a>
+								<a href="{{&website}}">{{&website}}</a>
 							</div>
 							<div class="email">
 								<icon class="entypo-Mail"></icon>
-								<a href="mailto:marianpoeschmann@gmail.com">marianpoeschmann@gmail.com</a>
+								<a href="mailto:{{email}}">{{email}}</a>
 							</div>
 						</div>
 						<section id="location">
 						</section>
 						<section id="profiles">
+            {{#profiles}}
 							<div class="item">
-								<a href="https://github.com/itsmethemojo">
-								<icon class="entypo-Github"></icon>
+								<a href="{{&url}}">
+								<icon class="entypo-{{network}}"></icon>
 								</a>
 							</div>
-							<div class="item">
-								<a href="https://www.xing.com/profile/Marian_Poeschmann">
-								<icon class="entypo-Chat"></icon>
-								</a>
-							</div>
+            {{/profiles}}
 						</section>
 					</section>
 				</div>
@@ -395,10 +393,11 @@ icon.large {
 			<div id="summary" class="row">
 				<div class="col-sm-8 col-sm-offset-4 col-xs-12">
 					<div class="summary">
-						<p class="lead">I love to build web applications. And I mean every single aspect of it. From creating cool browser offline functionality with Javascript, over designing reliable release pipelines, to configure scaleable server clusters for high performance.</p>
+						<p class="lead">{{summary}}</p>
 					</div>
 				</div>
 			</div>
+      {{/basics}}
 	<section id="work" class="row">
 		<div class="col-sm-4">
 			<div class="row">
@@ -411,176 +410,35 @@ icon.large {
 			</div>
 		</div>
 		<div class="col-sm-8">
+			{{#work}}
 			<div class="item">
 				<h3 class="name">
-					A.T.U Auto-Teile-Unger
+					{{company}}
 				</h3>
 				<div class="position">
-					<p class="lead">DevOps</p>
+					<p class="lead">{{position}}</p>
 				</div>
 				<div class="date">
 					<span class="startDate">
-						2017-12-01
+						{{startDate}}
 					</span>
 					<span class="endDate">
-						- 
+						- {{endDate}}
 					</span>
 				</div>
 				<div class="website">
-					<a href="https://www.atu.de/home">https:&#x2F;&#x2F;www.atu.de&#x2F;home</a>
+					<a href="{{&website}}">{{website}}</a>
 				</div>
 				<div class="summary">
-					<p>as part of a 4 member DevOps team i build tools to enable our developers to deploy and test their applications on our kubernetes clusters, later i was a dedicated DevOps in a crossfunctional scrum team</p>
+					<p>{{summary}}</p>
 				</div>
 				<ul class="highlights">
-					<li>integrated helm chart deployments in the build pipeline</li>
-					<li>created a git repository based deployment strategy to enable developers to deploy to all environments on their own</li>
-					<li>extended the selenium helm chart to run selenium behind an ingress in our cluster</li>
-					<li>setup automated integration tests as part of the build pipeline</li>
-					<li>improved speed of automated tests by setting up a scaleable parallelisation framework</li>
-					<li>created several concourse CI pipelines</li>
-					<li>created a concourse CI resource to complete bitbucket integration via build notifications</li>
-					<li>helped to create a reusable set of build-pack scripts to create new projects</li>
-					<li>set up nginx rules to A&#x2F;B test our new applications against the existing</li>
+					{{#highlights}}
+					<li>{{.}}</li>
+					{{/highlights}}
 				</ul>
 			</div>
-			<div class="item">
-				<h3 class="name">
-					Air Berlin
-				</h3>
-				<div class="position">
-					<p class="lead">DevOps</p>
-				</div>
-				<div class="date">
-					<span class="startDate">
-						2015-09-01
-					</span>
-					<span class="endDate">
-						- 2017-11-01
-					</span>
-				</div>
-				<div class="website">
-					<a href="https://www.airberlin.com">https:&#x2F;&#x2F;www.airberlin.com</a>
-				</div>
-				<div class="summary">
-					<p>after a brief start as php web developer i started to fill the open DevOps role as the team scaled up and the projects needed a different kind of skills</p>
-				</div>
-				<ul class="highlights">
-					<li>migrated the test infrastructure from inhouse to aws</li>
-					<li>improved build and deployment processes with multibranch pipelines and jenkins docker slaves</li>
-					<li>improved and supported the development environment with vagrant and docker</li>
-					<li>integration of new slim applications on www.airberlin.com with NGINX Reverse Proxy and SSI</li>
-					<li>conception of a release process and providing the tools needed for a dev team of 10 - 15 engineers</li>
-					<li>introducing and living the &#39;pipeline as code&#39; concept in the web development team</li>
-					<li>developing a progressive web application that has been featured on the Google I&#x2F;O 2016 https:&#x2F;&#x2F;flights.airberlin.com&#x2F;de-DE&#x2F;progressive-web-app</li>
-					<li>actually travel to the Google I&#x2F;O to present it live https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v&#x3D;0SSI8liELJU&amp;t&#x3D;26m44s</li>
-				</ul>
-			</div>
-			<div class="item">
-				<h3 class="name">
-					MeteoGroup
-				</h3>
-				<div class="position">
-					<p class="lead">Lead Developer Consumer&#x2F;Web</p>
-				</div>
-				<div class="date">
-					<span class="startDate">
-						2014-03-01
-					</span>
-					<span class="endDate">
-						- 2015-09-01
-					</span>
-				</div>
-				<div class="website">
-					<a href="https://www.meteogroup.com/de">https:&#x2F;&#x2F;www.meteogroup.com&#x2F;de</a>
-				</div>
-				<div class="summary">
-					<p>i was hired as a php web developer to rebuild the www.wetter24.de site and its different clients e.g. www.weer.nl</p>
-				</div>
-				<ul class="highlights">
-					<li>completly rebuild a multi-client weather website and moved infrastructure from inhouse to automaticly scaled aws servers</li>
-					<li>conception of a caching layer model to ensure page speed</li>
-					<li>improved several REST Web Services used by MeteoGroup Apps as WeatherPro, AlertsPro</li>
-				</ul>
-			</div>
-			<div class="item">
-				<h3 class="name">
-					dmc030
-				</h3>
-				<div class="position">
-					<p class="lead">Software Engineer Java</p>
-				</div>
-				<div class="date">
-					<span class="startDate">
-						2012-08-01
-					</span>
-					<span class="endDate">
-						- 2014-03-01
-					</span>
-				</div>
-				<div class="website">
-					<a href="https://diconium.com/digital-solutions/de/">https:&#x2F;&#x2F;diconium.com&#x2F;digital-solutions&#x2F;de&#x2F;</a>
-				</div>
-				<div class="summary">
-					<p>Intershop and Adobe CQ5 Customizing</p>
-				</div>
-				<ul class="highlights">
-					<li>design and implementation of web shop components for big german clients (PitStop, Intersport)</li>
-					<li>expierence with different frameworks (12 months Intershop, 6 months Adobe CQ5)</li>
-				</ul>
-			</div>
-			<div class="item">
-				<h3 class="name">
-					BWI Systeme GmbH
-				</h3>
-				<div class="position">
-					<p class="lead">Software Engineer Java</p>
-				</div>
-				<div class="date">
-					<span class="startDate">
-						2010-10-01
-					</span>
-					<span class="endDate">
-						- 2012-08-01
-					</span>
-				</div>
-				<div class="website">
-					<a href="https://www.bwi.de/unternehmen/wer-sind-wir/">https:&#x2F;&#x2F;www.bwi.de&#x2F;unternehmen&#x2F;wer-sind-wir&#x2F;</a>
-				</div>
-				<div class="summary">
-					<p>IBM Maximo Development</p>
-				</div>
-				<ul class="highlights">
-					<li>design and implementation of new features for the there used Maximo Asset Management System</li>
-					<li>getting a deeper unterstanding of the Service Management Process</li>
-				</ul>
-			</div>
-			<div class="item">
-				<h3 class="name">
-					IBM Deutschland GmbH
-				</h3>
-				<div class="position">
-					<p class="lead">Software Engineer Java</p>
-				</div>
-				<div class="date">
-					<span class="startDate">
-						2007-10-01
-					</span>
-					<span class="endDate">
-						- 2010-10-01
-					</span>
-				</div>
-				<div class="website">
-					<a href="https://www.ibm.com/de-de/">https:&#x2F;&#x2F;www.ibm.com&#x2F;de-de&#x2F;</a>
-				</div>
-				<div class="summary">
-					<p>as part of the dual university education i had several internships in the IBM development departments around Stuttgart</p>
-				</div>
-				<ul class="highlights">
-					<li>setting up a customized learning and communication plattform for the Afghan German Management College</li>
-					<li>integrating php applications in IBM WebSphere Portal (J2EE) via the Remote Portlet API</li>
-				</ul>
-			</div>
+			{{/work}}
 		</div>
 	</section>
 
@@ -597,23 +455,25 @@ icon.large {
 			</div>
 		</div>
 		<div class="col-sm-8">
+			{{#education}}
 			<div class="item">
-				<h3 class="institution">Duale Hochschule Baden-Württemberg</h3>
+				<h3 class="institution">{{institution}}</h3>
 				<div class="area">
-					<p class="lead">Applied Computer Science (Angewandte Informatik)</p>
+					<p class="lead">{{area}}</p>
 				</div>
 				<div class="studyType">
-					<h4>Bachelor of Science</h4>
+					<h4>{{studyType}}</h4>
 				</div>
 				<div class="date">
 					<span class="startDate">
-						2007-10-01
+						{{startDate}}
 					</span>
 					<span class="endDate">
-						- 2010-10-01
+						- {{endDate}}
 					</span>
 				</div>
 			</div>
+			{{/education}}
 		</div>
 	</section>
 
@@ -631,100 +491,16 @@ icon.large {
 			</div>
 		</div>
 		<div class="col-sm-8">
+			{{#skills}}
 			<div class="item">
-				<h3 class="name">Cloud Infrastructure</h3>
-					AWS, 
+				<h3 class="name">{{name}}</h3>
+					{{#keywords}}
+					{{.}}
 
-					EC2, 
-
-					ELB, 
-
-					Autoscaling, 
-
-					S3, 
-
-					Cloudfront, 
-
-					kubernetes
-
+					{{/keywords}}
 			</div>
 			<br/>
-			<div class="item">
-				<h3 class="name">Virtualization</h3>
-					kubernetes, 
-
-					docker, 
-
-					docker-compose, 
-
-					vagrant
-
-			</div>
-			<br/>
-			<div class="item">
-				<h3 class="name">Web Server</h3>
-					NGINX, 
-
-					Reverseproxy, 
-
-					SSI, 
-
-					php-fpm, 
-
-					Apache, 
-
-					Varnish
-
-			</div>
-			<br/>
-			<div class="item">
-				<h3 class="name">Build and Deployment</h3>
-					Concourse CI, 
-
-					Jenkins, 
-
-					Pipeline as Code, 
-
-					Bamboo, 
-
-					Capistrano, 
-
-					composer, 
-
-					npm, 
-
-					grunt
-
-			</div>
-			<br/>
-			<div class="item">
-				<h3 class="name">Developer</h3>
-					PHP, 
-
-					Ruby, 
-
-					Python, 
-
-					Bash, 
-
-					REST, 
-
-					Javascript, 
-
-					HTML&#x2F;CSS, 
-
-					Java, 
-
-					MySQL &#x2F; Oracle SQL
-
-			</div>
-			<br/>
-			<div class="item">
-				<h3 class="name">Configuration Management</h3>
-					ansible
-
-			</div>
-			<br/>
+			{{/skills}}
 		</div>
 	</section>
 
@@ -741,18 +517,14 @@ icon.large {
 		</div>
 
 		<div class="col-sm-8">
+			{{#languages}}
 			<div class="item">
-				<h3 class="language">German</h3>
+				<h3 class="language">{{language}}</h3>
 				<div class="fluency">
-					<em>Native speaker</em>
+					<em>{{fluency}}</em>
 				</div>
 			</div>
-			<div class="item">
-				<h3 class="language">English</h3>
-				<div class="fluency">
-					<em>fluently</em>
-				</div>
-			</div>
+			{{/languages}}
 		</div>
 	</section>
 	</div>

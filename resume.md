@@ -4,10 +4,13 @@
 ## Contact
 
 Email: [marianpoeschmann@gmail.com](mailto:marianpoeschmann@gmail.com)
+
 Website: https://github.com/itsmethemojo
 
 Github - [https://github.com/itsmethemojo](https://github.com/itsmethemojo)
+
 Chat - [https://www.xing.com/profile/Marian_Poeschmann](https://www.xing.com/profile/Marian_Poeschmann)
+
 
 ## Summary
 
