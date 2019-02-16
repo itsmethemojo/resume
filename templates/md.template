@@ -47,11 +47,8 @@ Website: {{&website}}
 ## Skills
 
 {{#skills}}
-### {{name}} ({{#keywords}}{{.}}{{/keywords}})
-
-{{#skillsHR}}
----
-{{/skillsHR}}
+### {{name}}
+{{#keywords}}{{.}}{{/keywords}}
 {{/skills}}
 
 ## Languages
@@ -59,9 +56,5 @@ Website: {{&website}}
 {{#languages}}
 ### {{language}}
 ##### Fluency: {{fluency}}
-
-{{#languagesHR}}
----
-{{/languagesHR}}
 
 {{/languages}}

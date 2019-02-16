@@ -82,32 +82,24 @@ as part of the dual university education i had several internships in the IBM de
 
 ## Skills
 
-### Cloud Infrastructure (AWS, EC2, ELB, Autoscaling, S3, Cloudfront, kubernetes)
-
----
-### Virtualization (kubernetes, docker, docker-compose, vagrant)
-
----
-### Web Server (NGINX, Reverseproxy, SSI, php-fpm, Apache, Varnish)
-
----
-### Build and Deployment (Concourse CI, Jenkins, Pipeline as Code, Bamboo, Capistrano, composer, npm, grunt)
-
----
-### Developer (PHP, Ruby, Python, Bash, REST, Javascript, HTML&#x2F;CSS, Java, MySQL &#x2F; Oracle SQL)
-
----
-### Configuration Management (ansible)
-
+### Cloud Infrastructure
+AWS, EC2, ELB, Autoscaling, S3, Cloudfront, kubernetes
+### Virtualization
+kubernetes, docker, docker-compose, vagrant
+### Web Server
+NGINX, Reverseproxy, SSI, php-fpm, Apache, Varnish
+### Build and Deployment
+Concourse CI, Jenkins, Pipeline as Code, Bamboo, Capistrano, composer, npm, grunt
+### Developer
+PHP, Ruby, Python, Bash, REST, Javascript, HTML&#x2F;CSS, Java, MySQL &#x2F; Oracle SQL
+### Configuration Management
+ansible
 
 ## Languages
 
 ### German
 ##### Fluency: Native speaker
 
----
-
 ### English
 ##### Fluency: fluently
-
 
