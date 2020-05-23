@@ -2,7 +2,7 @@ As a developer i always look for ways to do things intelligent. A while ago i fo
 
 # so here is my Resume
 
-* in [HTML](https://itsmethemojo.eu/resume.php)
+* in [HTML](https://itsmethemojo.github.io/resume/resume.html)
 * in [Markdown](https://github.com/itsmethemojo/resume/blob/master/resume.md)
 * in [JSON](https://raw.githubusercontent.com/itsmethemojo/resume/master/resume.json)
 

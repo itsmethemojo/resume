@@ -3,7 +3,7 @@
     "name": "Marian Pöschmann",
     "label": "DevOps / Web Developer",
     "picture": "",
-    "email": "marianpoeschmann@gmail.com",
+    "email": "resume@mail.itsmethemojo.eu",
     "website": "https://github.com/itsmethemojo",
     "summary": "I love to build web applications. And I mean every single aspect of it. From creating cool browser offline functionality with Javascript, over designing reliable release pipelines, to configure scaleable server clusters for high performance.",
     "location": {
@@ -25,30 +25,46 @@
   },
   "work": [
     {
-      "company": "A.T.U Auto-Teile-Unger",
+      "company": "DKB CodeFactory",
       "position": "DevOps",
-      "website": "https://www.atu.de/home",
-      "startDate": "2017-12-01",
-      "summary": "as part of a 4 member DevOps team i build tools to enable our developers to deploy and test their applications on our kubernetes clusters, later i was a dedicated DevOps in a crossfunctional scrum team",
+      "website": "https://www.dkbcodefactory.com/",
+      "startDate": "2019-01-01",
+      "summary": "Working in an up to 7 members platform team, i provided kubernetes clusters and additional tools for to 15 developer teams. I took also 6 months of parental leave in this period.",
       "highlights": [
-        "integrated helm chart deployments in the build pipeline",
-        "created a git repository based deployment strategy to enable developers to deploy to all environments on their own",
-        "extended the selenium helm chart to run selenium behind an ingress in our cluster",
-        "setup automated integration tests as part of the build pipeline",
-        "improved speed of automated tests by setting up a scaleable parallelisation framework",
-        "created several concourse CI pipelines",
-        "created a concourse CI resource to complete bitbucket integration via build notifications",
-        "helped to create a reusable set of build-pack scripts to create new projects",
-        "set up nginx rules to A/B test our new applications against the existing"
+        "setting up kubernetes clusters on aws ec2 with terraform and kubespray",
+        "moving the complete ci infrastructure from jenkins to gitlab pipelines",
+        "providing in-pipeline helm deployments to restricted namespaces per team",
+        "setting up an unified database initialization process for all teams",
+        "refined the code review process to raise review speed and quality",
+        "set up a contributor model to allow developers to contribute infrastructure changes via merge requests"
       ]
     },
+      {
+        "company": "A.T.U Auto-Teile-Unger",
+        "position": "DevOps",
+        "website": "https://www.atu.de/home",
+        "startDate": "2017-12-01",
+        "endDate": "2018-12-31",
+        "summary": "As part of a 4 member DevOps team i build tools to enable our developers to deploy and test their applications on our kubernetes clusters, later i was a dedicated DevOps in a crossfunctional scrum team. I took also 2 months of parental leave in this period.",
+        "highlights": [
+          "integrated helm chart deployments in the build pipeline",
+          "created a git repository based deployment strategy to enable developers to deploy to all environments on their own",
+          "extended the selenium helm chart to run selenium behind an ingress in our cluster",
+          "setup automated integration tests as part of the build pipeline",
+          "improved speed of automated tests by setting up a scaleable parallelisation framework",
+          "created several concourse CI pipelines",
+          "created a concourse CI resource to complete bitbucket integration via build notifications",
+          "helped to create a reusable set of build-pack scripts to create new projects",
+          "set up nginx rules to A/B test our new applications against the existing"
+        ]
+      },
     {
       "company": "Air Berlin",
       "position": "DevOps",
       "website": "https://www.airberlin.com",
       "startDate": "2015-09-01",
       "endDate": "2017-11-01",
-      "summary": "after a brief start as php web developer i started to fill the open DevOps role as the team scaled up and the projects needed a different kind of skills",
+      "summary": "After a brief start as php web developer i started to fill the open DevOps role as the team scaled up and the projects needed a different kind of skills",
       "highlights": [
         "migrated the test infrastructure from inhouse to aws",
         "improved build and deployment processes with multibranch pipelines and jenkins docker slaves",
@@ -66,7 +82,7 @@
       "website": "https://www.meteogroup.com/de",
       "startDate": "2014-03-01",
       "endDate": "2015-09-01",
-      "summary": "i was hired as a php web developer to rebuild the www.wetter24.de site and its different clients e.g. www.weer.nl",
+      "summary": "I was hired as a php web developer to rebuild the www.wetter24.de site and its different clients e.g. www.weer.nl",
       "highlights": [
         "completly rebuild a multi-client weather website and moved infrastructure from inhouse to automaticly scaled aws servers",
         "conception of a caching layer model to ensure page speed",
@@ -103,7 +119,7 @@
       "website": "https://www.ibm.com/de-de/",
       "startDate": "2007-10-01",
       "endDate": "2010-10-01",
-      "summary": "as part of the dual university education i had several internships in the IBM development departments around Stuttgart",
+      "summary": "As part of the dual university education i had several internships in the IBM development departments around Stuttgart",
       "highlights": [
         "setting up a customized learning and communication plattform for the Afghan German Management College",
         "integrating php applications in IBM WebSphere Portal (J2EE) via the Remote Portlet API"
@@ -129,8 +145,7 @@
         "ELB",
         "Autoscaling",
         "S3",
-        "Cloudfront",
-        "kubernetes"
+        "Cloudfront"
       ]
     },
     {
@@ -138,6 +153,7 @@
       "level": "",
       "keywords": [
         "kubernetes",
+        "helm",
         "docker",
         "docker-compose",
         "vagrant"
@@ -150,18 +166,16 @@
         "NGINX",
         "Reverseproxy",
         "SSI",
-        "php-fpm",
-        "Apache",
-        "Varnish"
+        "Apache"
       ]
     },
     {
       "name": "Build and Deployment",
       "level": "",
       "keywords": [
+        "gitlab CI",
         "Concourse CI",
         "Jenkins",
-        "Pipeline as Code",
         "Bamboo",
         "Capistrano",
         "composer",
@@ -176,12 +190,13 @@
         "PHP",
         "Ruby",
         "Python",
+        "Terraform",
         "Bash",
+        "Make/Taskfile",
         "REST",
         "Javascript",
         "HTML/CSS",
-        "Java",
-        "MySQL / Oracle SQL"
+        "Java"
       ]
     },
     {

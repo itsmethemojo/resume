@@ -3,7 +3,7 @@
 
 ## Contact
 
-Email: [marianpoeschmann@gmail.com](mailto:marianpoeschmann@gmail.com)
+Email: [resume@mail.itsmethemojo.eu](mailto:resume@mail.itsmethemojo.eu)
 
 Website: https://github.com/itsmethemojo
 
@@ -18,9 +18,20 @@ I love to build web applications. And I mean every single aspect of it. From cre
 
 ## Work
 
+### DevOps, DKB CodeFactory
+##### 2019-01-01 - 
+Working in an up to 7 members platform team, i provided kubernetes clusters and additional tools for to 15 developer teams. I took also 6 months of parental leave in this period.
+* setting up kubernetes clusters on aws ec2 with terraform and kubespray
+* moving the complete ci infrastructure from jenkins to gitlab pipelines
+* providing in-pipeline helm deployments to restricted namespaces per team
+* setting up an unified database initialization process for all teams
+* refined the code review process to raise review speed and quality
+* set up a contributor model to allow developers to contribute infrastructure changes via merge requests
+
+---
 ### DevOps, A.T.U Auto-Teile-Unger
-##### 2017-12-01 - 
-as part of a 4 member DevOps team i build tools to enable our developers to deploy and test their applications on our kubernetes clusters, later i was a dedicated DevOps in a crossfunctional scrum team
+##### 2017-12-01 - 2018-12-31
+As part of a 4 member DevOps team i build tools to enable our developers to deploy and test their applications on our kubernetes clusters, later i was a dedicated DevOps in a crossfunctional scrum team. I took also 2 months of parental leave in this period.
 * integrated helm chart deployments in the build pipeline
 * created a git repository based deployment strategy to enable developers to deploy to all environments on their own
 * extended the selenium helm chart to run selenium behind an ingress in our cluster
@@ -34,7 +45,7 @@ as part of a 4 member DevOps team i build tools to enable our developers to depl
 ---
 ### DevOps, Air Berlin
 ##### 2015-09-01 - 2017-11-01
-after a brief start as php web developer i started to fill the open DevOps role as the team scaled up and the projects needed a different kind of skills
+After a brief start as php web developer i started to fill the open DevOps role as the team scaled up and the projects needed a different kind of skills
 * migrated the test infrastructure from inhouse to aws
 * improved build and deployment processes with multibranch pipelines and jenkins docker slaves
 * improved and supported the development environment with vagrant and docker
@@ -47,7 +58,7 @@ after a brief start as php web developer i started to fill the open DevOps role 
 ---
 ### Lead Developer Consumer&#x2F;Web, MeteoGroup
 ##### 2014-03-01 - 2015-09-01
-i was hired as a php web developer to rebuild the www.wetter24.de site and its different clients e.g. www.weer.nl
+I was hired as a php web developer to rebuild the www.wetter24.de site and its different clients e.g. www.weer.nl
 * completly rebuild a multi-client weather website and moved infrastructure from inhouse to automaticly scaled aws servers
 * conception of a caching layer model to ensure page speed
 * improved several REST Web Services used by MeteoGroup Apps as WeatherPro, AlertsPro
@@ -69,7 +80,7 @@ IBM Maximo Development
 ---
 ### Software Engineer Java, IBM Deutschland GmbH
 ##### 2007-10-01 - 2010-10-01
-as part of the dual university education i had several internships in the IBM development departments around Stuttgart
+As part of the dual university education i had several internships in the IBM development departments around Stuttgart
 * setting up a customized learning and communication plattform for the Afghan German Management College
 * integrating php applications in IBM WebSphere Portal (J2EE) via the Remote Portlet API
 
@@ -83,15 +94,15 @@ as part of the dual university education i had several internships in the IBM de
 ## Skills
 
 ### Cloud Infrastructure
-AWS, EC2, ELB, Autoscaling, S3, Cloudfront, kubernetes
+AWS, EC2, ELB, Autoscaling, S3, Cloudfront
 ### Virtualization
-kubernetes, docker, docker-compose, vagrant
+kubernetes, helm, docker, docker-compose, vagrant
 ### Web Server
-NGINX, Reverseproxy, SSI, php-fpm, Apache, Varnish
+NGINX, Reverseproxy, SSI, Apache
 ### Build and Deployment
-Concourse CI, Jenkins, Pipeline as Code, Bamboo, Capistrano, composer, npm, grunt
+gitlab CI, Concourse CI, Jenkins, Bamboo, Capistrano, composer, npm, grunt
 ### Developer
-PHP, Ruby, Python, Bash, REST, Javascript, HTML&#x2F;CSS, Java, MySQL &#x2F; Oracle SQL
+PHP, Ruby, Python, Terraform, Bash, Make&#x2F;Taskfile, REST, Javascript, HTML&#x2F;CSS, Java
 ### Configuration Management
 ansible
 
