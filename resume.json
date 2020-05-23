@@ -29,7 +29,7 @@
       "position": "DevOps",
       "website": "https://www.dkbcodefactory.com/",
       "startDate": "2019-01-01",
-      "summary": "Working in a up to 7 members platform team, i provided kubernetes clusters and additional tools for to 15 developer teams. I took also 6 months of parental leave in this period.",
+      "summary": "Working in an up to 7 members platform team, i provided kubernetes clusters and additional tools for to 15 developer teams. I took also 6 months of parental leave in this period.",
       "highlights": [
         "setting up kubernetes clusters on aws ec2 with terraform and kubespray",
         "moving the complete ci infrastructure from jenkins to gitlab pipelines",

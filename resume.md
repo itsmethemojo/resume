@@ -20,7 +20,7 @@ I love to build web applications. And I mean every single aspect of it. From cre
 
 ### DevOps, DKB CodeFactory
 ##### 2019-01-01 - 
-Working in a up to 7 members platform team, i provided kubernetes clusters and additional tools for to 15 developer teams. I took also 6 months of parental leave in this period.
+Working in an up to 7 members platform team, i provided kubernetes clusters and additional tools for to 15 developer teams. I took also 6 months of parental leave in this period.
 * setting up kubernetes clusters on aws ec2 with terraform and kubespray
 * moving the complete ci infrastructure from jenkins to gitlab pipelines
 * providing in-pipeline helm deployments to restricted namespaces per team
