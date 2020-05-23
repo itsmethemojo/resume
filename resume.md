@@ -3,7 +3,7 @@
 
 ## Contact
 
-Email: [marianpoeschmann@gmail.com](mailto:marianpoeschmann@gmail.com)
+Email: [resume@mail.itsmethemojo.eu](mailto:resume@mail.itsmethemojo.eu)
 
 Website: https://github.com/itsmethemojo
 
