@@ -145,8 +145,7 @@
         "ELB",
         "Autoscaling",
         "S3",
-        "Cloudfront",
-        "kubernetes"
+        "Cloudfront"
       ]
     },
     {
@@ -154,6 +153,7 @@
       "level": "",
       "keywords": [
         "kubernetes",
+        "helm",
         "docker",
         "docker-compose",
         "vagrant"
@@ -166,18 +166,16 @@
         "NGINX",
         "Reverseproxy",
         "SSI",
-        "php-fpm",
-        "Apache",
-        "Varnish"
+        "Apache"
       ]
     },
     {
       "name": "Build and Deployment",
       "level": "",
       "keywords": [
+        "gitlab CI",
         "Concourse CI",
         "Jenkins",
-        "Pipeline as Code",
         "Bamboo",
         "Capistrano",
         "composer",
@@ -192,12 +190,13 @@
         "PHP",
         "Ruby",
         "Python",
+        "Terraform",
         "Bash",
+        "Make/Taskfile",
         "REST",
         "Javascript",
         "HTML/CSS",
-        "Java",
-        "MySQL / Oracle SQL"
+        "Java"
       ]
     },
     {
