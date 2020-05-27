@@ -2,7 +2,7 @@
   "basics": {
     "name": "Marian Pöschmann",
     "label": "DevOps / Web Developer",
-    "picture": "",
+    "picture": "https://avatars1.githubusercontent.com/u/6685967?s=460&u=3adae05c1f7cd4616669db5cbe092de63456cac7&v=4",
     "email": "resume@mail.itsmethemojo.eu",
     "website": "https://github.com/itsmethemojo",
     "summary": "I love to build web applications. And I mean every single aspect of it. From creating cool browser offline functionality with Javascript, over designing reliable release pipelines, to configure scaleable server clusters for high performance.",
@@ -17,7 +17,7 @@
         "url": "https://github.com/itsmethemojo"
       },
       {
-        "network": "Chat",
+        "network": "Xing",
         "username": "Marian_Poeschmann",
         "url": "https://www.xing.com/profile/Marian_Poeschmann"
       }
